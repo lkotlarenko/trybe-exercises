@@ -21,7 +21,7 @@ Bhutan
 Bolivia
 Bosnia Herzegovina
 Botswana
-Brasil
+Brazil
 Brazil
 Brunei
 Bulgaria
@@ -49,7 +49,6 @@ Denmark
 Djibouti
 Dominica
 Dominican Republic
-“Dreams are the foundation of America.” - Lupita Nyong'o
 East Timor
 Ecuador
 Egypt
@@ -61,8 +60,6 @@ Ethiopia
 Fiji
 Finland
 France
-“Freedom lies in being bold.” - Robert Frost
-“Freedom (n.): To ask nothing. To expect nothing. To depend on nothing.” - Ayn Rand
 Gabon
 Gambia
 Georgia
@@ -80,7 +77,6 @@ Hungary
 Iceland
 India
 Indonesia
-“In the truest sense, freedom cannot be bestowed; it must be achieved.” - Franklin D. Roosevelt
 Iran
 Iraq
 Ireland {Republic}
@@ -161,6 +157,7 @@ Sierra Leone
 Singapore
 Slovakia
 Slovenia
+Software is like sex: it's better when it's free. Linus Torvalds
 Solomon Islands
 Somalia
 South Africa
@@ -179,6 +176,9 @@ Taiwan
 Tajikistan
 Tanzania
 Thailand
+The truth is, no one of us can be free until everybody is free. Maya Angelou
+This nation will remain the land of the free only so long as it is the home of the brave. Elmer Davis
+To forgive is to set a prisoner free and discover that the prisoner was you. Lewis B. Smedes
 Togo
 Tonga
 Trinidad & Tobago
@@ -197,7 +197,6 @@ Vanuatu
 Vatican City
 Venezuela
 Vietnam
-“We must be free not because we claim freedom, but because we practice it.” - William Faulkner
 Yemen
 Zambia
 Zimbabwe

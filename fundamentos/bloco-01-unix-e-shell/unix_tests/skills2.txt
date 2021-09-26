@@ -1,8 +1,8 @@
 Internet
 Unix
 Bash
-Python
-Java
 JavaScript
-JQuery
-SDK
+Python
+Zsh
+Trybe
+Games
