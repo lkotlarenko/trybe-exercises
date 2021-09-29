@@ -1,0 +1,23 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #1d1e22;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
