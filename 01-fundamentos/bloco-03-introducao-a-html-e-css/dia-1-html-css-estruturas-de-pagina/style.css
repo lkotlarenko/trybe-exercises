@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #1d1e22;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+p {
+  font-size: smaller;
+  font-style: oblique;
+}
+
+button {
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #2fc18c;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #2aad7e;
+  border-bottom-color: #111;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.links {
+  text-decoration: none;
+}
