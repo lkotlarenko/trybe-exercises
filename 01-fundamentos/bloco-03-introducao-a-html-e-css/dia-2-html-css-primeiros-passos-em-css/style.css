@@ -22,3 +22,15 @@ p {
   text-align: center;
   width: auto;
 }
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#brown {
+  background-color: brown;
+}
