@@ -7,6 +7,10 @@ a {
   text-decoration: none;
   color: black;
 }
+ol,
+ul {
+  list-style: none;
+}
 
 li:hover {
   background-color: teal;
