@@ -9,3 +9,14 @@ ol li:nth-child(odd) {
 ol li:nth-child(even) {
   color: rgb(40, 133, 40);
 }
+
+h1,
+h3 {
+  color: red;
+}
+
+h1 em,
+h3 em {
+  border: 1px solid black;
+  font-size: 40px;
+}
