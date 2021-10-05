@@ -28,3 +28,11 @@ li {
 li em {
   font-weight: bold;
 }
+
+#p-lang li:not(:nth-child(n + 4)) {
+  color: blue;
+}
+
+#p-lang .f-rosa {
+  background-color: pink;
+}
