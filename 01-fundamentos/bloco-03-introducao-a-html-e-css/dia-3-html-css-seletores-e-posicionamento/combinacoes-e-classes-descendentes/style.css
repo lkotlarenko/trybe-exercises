@@ -36,3 +36,27 @@ li em {
 #p-lang .f-rosa {
   background-color: pink;
 }
+
+#links li a:hover {
+  font-weight: bolder;
+}
+
+#links li a[href*="stack"]:hover {
+  color: orange;
+}
+
+#links li a[href*="w3sc"]:hover {
+  color: green;
+}
+
+#links li a[href*="mozil"]:hover {
+  color: black;
+}
+
+#links li a[href*="devdoc"]:hover {
+  color: gold;
+}
+
+#links li a[href*="trybe"]:hover {
+  color: teal;
+}
