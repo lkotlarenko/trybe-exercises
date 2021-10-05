@@ -1,0 +1,19 @@
+h1,
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li:hover {
+  background-color: teal;
+  font-size: larger;
+}
+
+.link:active {
+  color: greenyellow;
+  font-family: "Times New Roman", Times, serif;
+}
