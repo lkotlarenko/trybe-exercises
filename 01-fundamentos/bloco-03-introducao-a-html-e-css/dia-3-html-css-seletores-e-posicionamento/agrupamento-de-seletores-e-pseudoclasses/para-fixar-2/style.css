@@ -1,0 +1,22 @@
+div:hover {
+  border: 3px solid teal;
+}
+div#cor-p {
+  background-color: red;
+}
+div#cor-s {
+  background-color: green;
+}
+div#cor-com {
+  background-color: yellow;
+  font-size: larger;
+}
+div#cor-e {
+  background-color: purple;
+}
+div#cor-c {
+  background-color: aqua;
+}
+.t-italic {
+  font-style: italic;
+}
