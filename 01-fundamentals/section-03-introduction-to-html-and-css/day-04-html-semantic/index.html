@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width" />
     <title>Stomatopoda, o Saitama dos mares?</title>
     <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
       nav ul li {
         display: inline-block;
         text-align: center;
         padding: 5px 10px;
       }
 
-      .nav-bar {
+      main {
+        height: 50px;
+        padding: 25px 0 0 20px;
+      }
+
+      section div {
         text-align: center;
       }
 
@@ -21,6 +31,21 @@
 
       th {
         padding: 10px 5px 2px;
+      }
+
+      .nav-bar {
+        text-align: center;
+        background-color: #e4bc67;
+      }
+
+      .pg-title {
+        text-align: center;
+        background-color: #a3e4cb;
+        height: 80px;
+        width: 100%;
+        padding: 40px 0 0 20px;
+        position: fixed;
+        z-index: 1;
       }
 
       .core-text {
@@ -33,26 +58,54 @@
         align-self: center;
         padding-right: 10px;
         border-spacing: 3px;
+        display: inline;
+        float: left;
       }
+
+      .table-side {
+        text-align: center;
+        padding: 20px 5px;
+      }
+
       .sect-title {
         font-style: oblique;
         text-align: center;
         font-size: larger;
       }
+
       .sub-title {
         font-size: large;
         padding: 0 5px 0;
+      }
+
+      .imgs {
+        width: 35%;
+        height: auto;
+        vertical-align: top;
+      }
+
+      .saitama {
+        text-decoration: none;
+        color: #e4bc67;
+      }
+
+      .saitama:hover {
+        color: #983d34;
       }
     </style>
   </head>
   <body>
     <!--insira os elementos aqui-->
     <header>
-      <h1>
-        Stomatopoda, o
-        <a href="https://onepunchman.fandom.com/wiki/Saitama">Saitama</a> dos
-        mares?
-      </h1>
+      <div class="pg-title">
+        <h1>
+          Stomatopoda, o
+          <a class="saitama" href="https://onepunchman.fandom.com/wiki/Saitama"
+            >Saitama</a
+          >
+          dos mares?
+        </h1>
+      </div>
     </header>
     <nav>
       <div class="nav-bar">
@@ -77,7 +130,7 @@
                 chamados popularmente de tamarutacas ou de lacraias-do-mar no
                 Brasil, é uma ordem de crustáceos marinhos da subclasse
                 Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas
-                principalmente pela segunda pata que se assemelha à de um
+                principalmente pela segunda pata que se assemelha a de um
                 louva-a-deus."
               </p>
               <table class="sci-table">
@@ -119,6 +172,18 @@
                   </tr>
                 </tbody>
               </table>
+              <div class="table-side">
+                <img
+                  class="imgs"
+                  src="https://c4.wallpaperflare.com/wallpaper/858/531/634/pacific-mantis-shrimp-underwater-africa-wallpaper-thumb.jpg"
+                  alt="Mantis Shrimp"
+                />
+                <img
+                  class="imgs"
+                  src="https://ak3.picdn.net/shutterstock/videos/1032763733/thumb/2.jpg"
+                  alt="Odontodactylus scyllarus"
+                />
+              </div>
             </section>
             <section>
               <h3 class="sect-title">Suas Caracteristicas</h3>
@@ -134,15 +199,17 @@
                 calcificadas de gastrópodes ou até mesmo quebrar o vidro
                 reforçado de um aquário.
               </p>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube-nocookie.com/embed/8enojiJCD00?controls=0&amp;start=162"
-                title="Soco mortal"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <div>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube-nocookie.com/embed/8enojiJCD00?controls=0&amp;start=162"
+                  title="Soco mortal"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
               <h4 class="sub-title">Visão Incrivel</h4>
               <p class="core-text">
                 Esses animais possuem o mais complexo sistema de visão de cores
@@ -155,6 +222,33 @@
                 cores apenas. A visão dos estomatópodes é sensível à luz
                 ultravioleta, mas ainda é desconhecido se ela pode distinguir a
                 luz infravermelha.
+              </p>
+              <div>
+                <img
+                  class="imgs"
+                  src="https://ak6.picdn.net/shutterstock/videos/1043999146/thumb/1.jpg"
+                  alt="Olhos do Odontodactylus scyllarus"
+                />
+              </div>
+            </section>
+            <section>
+              <h3 class="sect-title">Para complementar</h3>
+              <p class="core-text">
+                Também conhecidas como esquilas ou lagosta-boxeadora, espalhadas
+                pelas costas dos mares tropicais e subtropicais. Além das patas,
+                elas apresentam uma silhueta característica, devido ao grande
+                comprimento aparentemente de seu abdómen. Os ovos ficam ligados
+                por uma massa gelatinosa que a mãe carrega contra o ventre até
+                que eclodem, limpando-os sem parar.<br />
+                <br />
+
+                São animais que apresentam comportamentos sociais muito
+                variados, desde ameaças visuais contra predadores até
+                comportamentos de côrte. De acordo com a anatomia da sua pata
+                raptorial é possível distinguir entre dois grupos funcionais, as
+                perfuradoras (spearers) ou as esmagadoras (smashers), sendo que
+                cada um dos tipos apresenta sua própria variação comportamental
+                e até mesmo de habitat.
               </p>
             </section>
           </div>
