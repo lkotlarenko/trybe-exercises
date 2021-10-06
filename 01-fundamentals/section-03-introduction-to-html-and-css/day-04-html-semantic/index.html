@@ -5,53 +5,47 @@
     <meta name="viewport" content="width=device-width" />
     <title>Stomatopoda, o Saitama dos mares?</title>
     <style>
-      body {
+      /* reset padding and margin */
+      * {
         margin: 0;
         padding: 0;
       }
-
+      /* set padding to main */
+      main {
+        padding: 20px 0 0 20px;
+      }
+      /* nav inline style */
       nav ul li {
         display: inline-block;
         text-align: center;
         padding: 5px 10px;
       }
-
-      main {
-        height: 50px;
-        padding: 25px 0 0 20px;
-      }
-
+      /* center divs */
       section div {
         text-align: center;
       }
-
-      div .container {
-        max-width: 100%;
-      }
-
-      th {
-        padding: 10px 5px 2px;
-      }
-
+      /* nav-bar style */
       .nav-bar {
         text-align: center;
         background-color: #e4bc67;
       }
-
+      /* page title (header) */
       .pg-title {
         text-align: center;
         background-color: #a3e4cb;
-        height: 80px;
+        height: max-content;
         width: 100%;
-        padding: 40px 0 0 20px;
         position: fixed;
-        z-index: 1;
+      }
+
+      .container {
+        position: inherit;
+        padding-top: 100px;
       }
 
       .core-text {
-        /* max-width: 70%; */
         min-width: 390px;
-        padding: 0 5px 0;
+        padding: 5px 5px 20px;
       }
 
       .sci-table {
@@ -70,18 +64,32 @@
       .sect-title {
         font-style: oblique;
         text-align: center;
+        padding: 25px 0 0 20px;
         font-size: larger;
       }
 
       .sub-title {
         font-size: large;
         padding: 0 5px 0;
+        color: #983d34;
       }
 
       .imgs {
         width: 35%;
         height: auto;
         vertical-align: top;
+      }
+
+      .videos {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 600px;
+        max-height: 420px;
+        min-height: 300px;
       }
 
       .saitama {
@@ -91,6 +99,13 @@
 
       .saitama:hover {
         color: #983d34;
+      }
+
+      .footer-bar {
+        text-align: center;
+        margin: 10px 0 0 0;
+        background-color: #a3e4cb;
+        width: 100%;
       }
     </style>
   </head>
@@ -105,24 +120,24 @@
           >
           dos mares?
         </h1>
+        <nav>
+          <div class="nav-bar">
+            <ul>
+              <li><a href="#">Página Inicial</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
-    <nav>
-      <div class="nav-bar">
-        <ul>
-          <li><a href="#">Página Inicial</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </div>
-    </nav>
     <main>
-      <div>
+      <div class="container">
         <article>
           <header>
             <h2>Fatos sobre o Stomatopoda</h2>
           </header>
-          <div class="container">
+          <div>
             <section>
               <h3 class="sect-title">Quem são eles?</h3>
               <p class="core-text">
@@ -136,7 +151,7 @@
               <table class="sci-table">
                 <tbody>
                   <tr>
-                    <th>Classificação científica</th>
+                    <th style="color: #983d34">Classificação científica</th>
                   </tr>
                   <tr>
                     <td>
@@ -201,8 +216,7 @@
               </p>
               <div>
                 <iframe
-                  width="560"
-                  height="315"
+                  class="videos"
                   src="https://www.youtube-nocookie.com/embed/8enojiJCD00?controls=0&amp;start=162"
                   title="Soco mortal"
                   frameborder="0"
@@ -255,5 +269,12 @@
         </article>
       </div>
     </main>
+    <footer>
+      <div class="footer-bar">
+        <h3>
+          Conteúdo compilado por Leonardo Kotlarenko em <strong>2021</strong>
+        </h3>
+      </div>
+    </footer>
   </body>
 </html>
