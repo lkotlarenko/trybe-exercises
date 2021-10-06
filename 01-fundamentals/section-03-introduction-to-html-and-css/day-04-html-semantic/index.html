@@ -3,6 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <style>
+      nav ul li {
+        display: inline-block;
+        text-align: center;
+      }
+
+      .nav-bar {
+        text-align: center;
+      }
+
+      div .container {
+        max-width: 100%;
+      }
+
+      th {
+        padding: 10px 5px 2px;
+      }
+
+      .core-desc {
+        max-width: 70%;
+        display: inline;
+        min-width: 390px;
+        padding: 0 5px;
+      }
+
+      .sci-table {
+        align-self: center;
+        padding-right: 10px;
+        border-spacing: 3px;
+      }
+      .sub-title {
+      }
+    </style>
   </head>
   <body>
     <!--insira os elementos aqui-->
@@ -14,11 +47,13 @@
       </h1>
     </header>
     <nav>
-      <ul>
-        <li>Página Inicial</li>
-        <li>Sobre</li>
-        <li>Contato</li>
-      </ul>
+      <div class="nav-bar">
+        <ul>
+          <li>Página Inicial</li>
+          <li>Sobre</li>
+          <li>Contato</li>
+        </ul>
+      </div>
     </nav>
     <main>
       <div>
@@ -26,56 +61,60 @@
           <header>
             <h2>Fatos sobre o Stomatopoda</h2>
           </header>
-          <div>
-            <h3>Quem são eles?</h3>
-            <table>
-              <tbody>
-                <tr>
-                  <th><p>Classificação científica</p></th>
-                </tr>
-                <tr>
-                  <td>
-                    <table>
-                      <tbody>
-                        <tr>
-                          <td><p>Reino:</p></td>
-                          <td><p>Animalia</p></td>
-                        </tr>
-                        <tr>
-                          <td><p>Filo:</p></td>
-                          <td><p>Arthropoda</p></td>
-                        </tr>
-                        <tr>
-                          <td><p>Subfilo:</p></td>
-                          <td><p>Crustacea</p></td>
-                        </tr>
-                        <tr>
-                          <td><p>Classe:</p></td>
-                          <td><p>Malacostraca</p></td>
-                        </tr>
-                        <tr>
-                          <td><p>Subclasse:</p></td>
-                          <td><p>Hoplocarida</p></td>
-                        </tr>
-                        <tr>
-                          <td><p>Ordem:</p></td>
-                          <td>Stomatopoda</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-                <tr></tr>
-              </tbody>
-            </table>
-            <p>
-              Stomatopoda ou estomatópode (<em>Odontodactylus scyllarus</em>),
-              chamados popularmente de tamarutacas ou de lacraias-do-mar no
-              Brasil, é uma ordem de crustáceos marinhos da subclasse
-              Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas
-              principalmente pela segunda pata que se assemelha à de um
-              louva-a-deus."
-            </p>
+          <div class="container">
+            <section>
+              <h3 class="sub-title">Quem são eles?</h3>
+              <p class="core-desc">
+                Stomatopoda ou estomatópode (<em>Odontodactylus scyllarus</em>),
+                chamados popularmente de tamarutacas ou de lacraias-do-mar no
+                Brasil, é uma ordem de crustáceos marinhos da subclasse
+                Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas
+                principalmente pela segunda pata que se assemelha à de um
+                louva-a-deus."
+              </p>
+              <table class="sci-table">
+                <tbody>
+                  <tr>
+                    <th>Classificação científica</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Reino:</td>
+                            <td>Animalia</td>
+                          </tr>
+                          <tr>
+                            <td>Filo:</td>
+                            <td>Arthropoda</td>
+                          </tr>
+                          <tr>
+                            <td>Subfilo:</td>
+                            <td>Crustacea</td>
+                          </tr>
+                          <tr>
+                            <td>Classe:</td>
+                            <td>Malacostraca</td>
+                          </tr>
+                          <tr>
+                            <td>Subclasse:</td>
+                            <td>Hoplocarida</td>
+                          </tr>
+                          <tr>
+                            <td>Ordem:</td>
+                            <td>Stomatopoda</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
+              <h3 class="sub-title">O que eles fazem</h3>
+            </section>
             <p></p>
           </div>
         </article>
