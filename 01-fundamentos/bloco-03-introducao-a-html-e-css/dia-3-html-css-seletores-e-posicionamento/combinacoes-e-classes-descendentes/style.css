@@ -1,0 +1,62 @@
+ol li {
+  background-color: yellow;
+}
+
+ol li:nth-child(odd) {
+  text-transform: uppercase;
+}
+
+ol li:nth-child(even) {
+  color: rgb(40, 133, 40);
+}
+
+h1,
+h3 {
+  color: red;
+}
+
+h1 em,
+h3 em {
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+#p-lang li:not(:nth-child(n + 4)) {
+  color: blue;
+}
+
+#p-lang .f-rosa {
+  background-color: pink;
+}
+
+#links li a:hover {
+  font-weight: bolder;
+}
+
+#links li a[href*="stack"]:hover {
+  color: orange;
+}
+
+#links li a[href*="w3sc"]:hover {
+  color: green;
+}
+
+#links li a[href*="mozil"]:hover {
+  color: black;
+}
+
+#links li a[href*="devdoc"]:hover {
+  color: gold;
+}
+
+#links li a[href*="trybe"]:hover {
+  color: teal;
+}
