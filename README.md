@@ -27,7 +27,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - [x] 3-1: _HTML & CSS - Structure page_
 - [x] 3-2: _HTML & CSS - Firsts steps with CSS_
 - [x] 3-3: _HTML & CSS - Selectors and positions_
-- [ ] 3-4: _HTML Semantic_
+- [x] 3-4: _HTML Semantic - [Mini-Project - Stomatopoda](https://lkotlarenko.github.io/stomatopoda)_
 - [ ] 3-5: _[Project - HTML & CSS]()_
 
 ##### Section 4 Introduction to JavaScript and Programming Logic
