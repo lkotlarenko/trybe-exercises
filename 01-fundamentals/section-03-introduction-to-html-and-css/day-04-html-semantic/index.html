@@ -101,6 +101,16 @@
         color: #983d34;
       }
 
+      .is-a-link {
+        font-weight: bold;
+        text-decoration: none;
+        color: #a3e4cb;
+      }
+
+      .is-a-link:hover {
+        color: black;
+      }
+
       .footer-bar {
         text-align: center;
         margin: 10px 0 0 0;
@@ -123,9 +133,9 @@
         <nav>
           <div class="nav-bar">
             <ul>
-              <li><a href="#">Página Inicial</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a class="is-a-link" href="#">Página Inicial</a></li>
+              <li><a class="is-a-link" href="#about">Sobre</a></li>
+              <li><a class="is-a-link" href="#contact">Contato</a></li>
             </ul>
           </div>
         </nav>
@@ -133,7 +143,7 @@
     </header>
     <main>
       <div class="container">
-        <article>
+        <article id="about">
           <header>
             <h2>Fatos sobre o Stomatopoda</h2>
           </header>
@@ -239,6 +249,7 @@
               </p>
               <div>
                 <img
+                  style="min-height: 200px; min-width: 300px"
                   class="imgs"
                   src="https://ak6.picdn.net/shutterstock/videos/1043999146/thumb/1.jpg"
                   alt="Olhos do Odontodactylus scyllarus"
@@ -265,12 +276,23 @@
                 e até mesmo de habitat.
               </p>
             </section>
+            <section>
+              <h3 class="sect-title">Referência Bibliográfica</h3>
+              <div>
+                <a
+                  class="is-a-link"
+                  target="blank"
+                  href="https://pt.wikipedia.org/wiki/Stomatopoda"
+                  >Wikipedia - Stomatopoda</a
+                >
+              </div>
+            </section>
           </div>
         </article>
       </div>
     </main>
     <footer>
-      <div class="footer-bar">
+      <div id="contact" class="footer-bar">
         <h3>
           Conteúdo compilado por Leonardo Kotlarenko em <strong>2021</strong>
         </h3>
