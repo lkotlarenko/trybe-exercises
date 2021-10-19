@@ -80,6 +80,15 @@
       }
       fixTitle("Exercício 5.1 - JavaScript");
 
+      // 5.
+      function tagToUpperCase(tag) {
+        let selectedTag = document.querySelectorAll(tag);
+        for (let i of selectedTag) {
+          i.innerText = i.innerText.toUpperCase();
+        }
+      }
+      tagToUpperCase("p");
+      
     </script>
   </body>
 </html>
