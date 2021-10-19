@@ -35,8 +35,8 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - [x] 4-1: _JavaScript - Firsts steps_
 - [x] 4-2: _JavaScript - Array and loop For_
 - [x] 4-3: _JavaScript - Programming Logic and Algorithms_
-- [ ] 4-4: _JavaScript - Objects and Functions_
-- [ ] 4-5: _[Project - Playground Functions]()_
+- [x] 4-4: _JavaScript - Objects and Functions_
+- [x] 4-5: _[Project - Playground Functions](https://github.com/tryber/sd-017-project-playground-functions/pull/122)_
 
 ##### Section 5 JavaScript: DOM, Events and Web Storage
 
