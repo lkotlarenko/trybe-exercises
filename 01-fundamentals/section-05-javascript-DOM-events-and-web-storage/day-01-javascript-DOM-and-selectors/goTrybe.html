@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Exercício 5.1</title>
-    
+
     <style>
-      main, section {
+      main,
+      section {
         border-color: black;
         border-style: solid;
       }
@@ -31,18 +32,18 @@
     </style>
   </head>
   <body>
-    <header> 
-      <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
-    </header>    
+    <header>
+      <h1 class="title">Exercício 5.1 - JavaEscripito</h1>
+    </header>
     <main class="main-content">
       <section class="center-content">
         <p>Texto padrão do nosso site</p>
-        <p>-----</p>
+        <p id="futuro">-----</p>
         <p>Trybe</p>
       </section>
     </main>
     <script>
-        /*
+      /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
         - document.getElementsByClassName()
@@ -54,6 +55,13 @@
         5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
         6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
+
+      // 1.
+      function textoFuturo(texto) {
+        document.getElementById("futuro").innerHTML = texto;
+      }
+      textoFuturo('Me vejo feliz da vida :D')
+
     </script>
   </body>
 </html>
