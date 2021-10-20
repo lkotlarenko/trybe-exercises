@@ -97,11 +97,30 @@
       let ulTag = document.createElement("ul");
       document.querySelector(".right-content").appendChild(ulTag);
       ulTag = document.querySelector("ul");
-      let numbers = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez",];
+      let numbers = [
+        "um",
+        "dois",
+        "três",
+        "quatro",
+        "cinco",
+        "seis",
+        "sete",
+        "oito",
+        "nove",
+        "dez",
+      ];
       for (let i of numbers) {
         let liTag = document.createElement("li");
         liTag.innerText = i;
         ulTag.appendChild(liTag);
+      }
+
+      // 9. Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+      let counter = ["primeira h3", "segunda h3", "terceira h3"];
+      for (let i of counter) {
+        let h3Text = document.createElement("h3");
+        h3Text.innerText = i;
+        document.querySelector("main").appendChild(h3Text);
       }
 
     </script>
