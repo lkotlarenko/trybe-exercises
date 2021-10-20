@@ -133,8 +133,10 @@
       }
 
       // Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild();
-      sectionLeft = document.querySelector(".left-content");
       document.querySelector("main").removeChild(sectionLeft);
+
+      // Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto da section;
+      sectionRight.style = "margin-right: auto";
       
     </script>
   </body>
