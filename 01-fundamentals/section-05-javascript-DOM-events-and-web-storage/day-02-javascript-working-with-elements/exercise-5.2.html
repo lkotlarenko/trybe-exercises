@@ -66,6 +66,11 @@
       let mainTag = document.createElement("main");
       mainTag.className = "main-content";
       document.querySelector("body").appendChild(mainTag);
+
+      // 3. Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+      let sectionTag = document.createElement("section");
+      sectionTag.className = "center-content";
+      document.querySelector("main").appendChild(sectionTag);
       
     </script>
   </body>
