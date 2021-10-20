@@ -76,6 +76,11 @@
       let pText = document.createElement("p");
       pText.innerText = "Algum texto :P";
       document.querySelector("section").appendChild(pText);
+
+      // 5. Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+      let sectionLeft = document.createElement("section");
+      sectionLeft.className = "left-content";
+      document.querySelector("main").appendChild(sectionLeft);
       
     </script>
   </body>
