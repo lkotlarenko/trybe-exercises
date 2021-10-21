@@ -61,3 +61,23 @@ function createButton(buttonName, id, parent) {
   buttonParent.appendChild(newButton);
 }
 createButton("Feriados", "btn-holiday", ".buttons-container");
+
+// 3. Implemente uma função que adicione ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .
+// É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)".
+
+function displayHolidays(color) {
+  let getHolidayBtn = document.querySelector("#btn-holiday");
+  let listOfHolidays = document.querySelectorAll(".holiday");
+  let defaultColor = "rgb(238,238,238)";
+  let holidayColor = color;
+  getHolidayBtn.addEventListener("click", function () {
+    for (let i of listOfHolidays) {
+      if (i.style.backgroundColor === holidayColor) {
+        i.style.backgroundColor = defaultColor;
+      } else {
+        i.style.backgroundColor = holidayColor;
+      }
+    }
+  });
+}
+displayHolidays("lightgreen");
