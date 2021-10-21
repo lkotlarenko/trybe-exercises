@@ -91,20 +91,24 @@ createButton("Sexta-feira", "btn-friday", ".buttons-container");
 // 5. Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
 // É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias.
 
-function displayFridays(color) {
-    let getFridayBtn = document.querySelector("#btn-friday");
-    let listOfFridays = document.querySelectorAll(".friday");
-    let defaultColor = "rgb(238,238,238)";
-    let FridayColor = color;
-    getFridayBtn.addEventListener("click", function () {
-      for (let i of listOfFridays) {
-        if (i.style.backgroundColor === FridayColor) {
-          i.style.backgroundColor = defaultColor;
-        } else {
-          i.style.backgroundColor = FridayColor;
-        }
+function displayFridays(string) {
+  let getFridayBtn = document.querySelector("#btn-friday");
+  let listOfFridays = document.querySelectorAll(".friday");
+  let FridayText = string;
+  getFridayBtn.addEventListener("click", function () {
+    for (let i in listOfFridays) {
+        console.log(i);
+      if (listOfFridays[i].innerText !== FridayText) {
+        listOfFridays[i].innerText = FridayText;
+      } else {
+        listOfFridays[i].innerText = fridays[i];
       }
-    });
-  }
-  displayFridays("lightgreen");
-  
+    }
+  });
+}
+
+displayFridays("SEXTOU o/");
+
+// 6. Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
+// Dica - Propriedade: event.target.
+
