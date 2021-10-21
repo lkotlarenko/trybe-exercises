@@ -159,15 +159,36 @@ taskDiv("lightgreen");
 // Usei o gabarito :P (após entender claro)
 
 function setTaskClass() {
-    let selectedTask = document.getElementsByClassName('task selected');
-    let myTasks = document.querySelector('.task');
-    myTasks.addEventListener('click', function(event) {
-      if (selectedTask.length === 0) {
-        event.target.className = 'task selected';
-      } else {
-        event.target.className = 'task';
-      }
-    });
-  };
-  setTaskClass();
-  
+  let selectedTask = document.getElementsByClassName("task selected");
+  let myTasks = document.querySelector(".task");
+  myTasks.addEventListener("click", function (event) {
+    if (selectedTask.length === 0) {
+      event.target.className = "task selected";
+    } else {
+      event.target.className = "task";
+    }
+  });
+}
+setTaskClass();
+
+// 10. Implemente uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.
+// - Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119).
+// Usei o gabarito nessa tbm :P (após entender (e arrumar conflitos de nomes de variaveis) claro)
+
+function setDayColor() {
+  let selectedTask = document.getElementsByClassName("task selected");
+  let selectedDays = document.querySelector("#days");
+  let tasksDiv = document.querySelector(".task");
+  let taskColor = tasksDiv.style.backgroundColor;
+
+  selectedDays.addEventListener("click", function (event) {
+    let eventTargetColor = event.target.style.color;
+    if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+      let color = selectedTask[0].style.backgroundColor;
+      event.target.style.color = color;
+    } else if (eventTargetColor === taskColor && selectedTask.length !== 0) {
+      event.target.style.color = "rgb(119,119,119)";
+    }
+  });
+}
+setDayColor();
