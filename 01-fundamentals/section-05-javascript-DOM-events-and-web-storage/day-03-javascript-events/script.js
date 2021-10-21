@@ -153,3 +153,21 @@ function taskDiv(color) {
   tasks.appendChild(newTaskDiv);
 }
 taskDiv("lightgreen");
+
+// 9. Implemente uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribua a este elemento a classe task selected , ou seja, quando sua tarefa possuir a classe task selected , ela estará selecionada.
+// - Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task , ou seja, esta tarefa está deixando de ser uma tarefa selecionada.
+// Usei o gabarito :P (após entender claro)
+
+function setTaskClass() {
+    let selectedTask = document.getElementsByClassName('task selected');
+    let myTasks = document.querySelector('.task');
+    myTasks.addEventListener('click', function(event) {
+      if (selectedTask.length === 0) {
+        event.target.className = 'task selected';
+      } else {
+        event.target.className = 'task';
+      }
+    });
+  };
+  setTaskClass();
+  
