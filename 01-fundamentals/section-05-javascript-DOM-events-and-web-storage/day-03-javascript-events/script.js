@@ -192,3 +192,32 @@ function setDayColor() {
   });
 }
 setDayColor();
+
+// bonus
+function newTask() {
+  let tasksList = document.querySelector(".task-list");
+  let inputTask = document.querySelector("#task-input");
+  let addTaskBtn = document.querySelector("#btn-add");
+
+  addTaskBtn.addEventListener("click", function () {
+    if (inputTask.value.length > 0) {
+      let newTaskLi = document.createElement("li");
+      newTaskLi.innerText = inputTask.value;
+      tasksList.appendChild(newTaskLi);
+      inputTask.value = "";
+    } else {
+      alert("Erro: Digite ao menos 1 caractere.");
+    }
+  });
+
+  inputTask.addEventListener("keyup", function (event) {
+    if (event.key === "Enter" && inputTask.value.length > 0) {
+      let newTaskLi = document.createElement("li");
+      newTaskLi.innerText = inputTask.value;
+      tasksList.appendChild(newTaskLi);
+      inputTask.value = "";
+    }
+  });
+}
+
+newTask();
