@@ -42,7 +42,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 - [x] 5-1: _JavaScript - DOM and Selectors_
 - [x] 5-2: _JavaScript - Working with elements_
-- [ ] 5-3: _JavaScript - Events_
+- [x] 5-3: _JavaScript - Events_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _JavaScript - Fundamentals Projects_
 - [ ] 5-5: _[Project - Art with pixels]()_
