@@ -43,19 +43,19 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - [x] 5-1: _JavaScript - DOM and Selectors_
 - [x] 5-2: _JavaScript - Working with elements_
 - [x] 5-3: _JavaScript - Events_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _JavaScript - Fundamentals Projects_
-- [ ] 5-5: _[Project - Art with pixels]()_
-- [ ] 5-6: _[Project - To do List]()_
-- [ ] 5-7: _[Project - Meme Generator]()_
+- [x] 5-4: _JavaScript - Web Storage_
+- [x] 5-5: _JavaScript - Fundamentals Projects_
+- [x] 5-5: _[Project - Art with pixels](https://github.com/tryber/sd-017-project-pixels-art/pull/13)_
+- [x] 5-6: _[Project - To do List](https://github.com/tryber/sd-017-project-todo-list/pull/24)_
+<!-- - [ ] 5-7: _[Project - Meme Generator]()_
 - [ ] 5-8: _[Project - Guess the Color]()_
-- [ ] 5-9: _[Project - Mystery Letter]()_
+- [ ] 5-9: _[Project - Mystery Letter]()_ -->
 
 ##### Section 6 HTML and CSS: Forms, Flexbox and Responsiveness
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _JavaScript’s Libraries and CSS Frameworks_
-- [ ] 6-3: _CSS Flexbox - Part 1_
+- [x] 6-1: _HTML & CSS - Forms_
+- [x] 6-2: _JavaScript’s Libraries and CSS Frameworks_
+- [x] 6-3: _[CSS Flexbox - Part 1](https://github.com/tryber/exercise-tech-gallery/pull/291)_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsive - Mobile First_
 - [ ] 6-6: _[Project - Trybewarts]()_
