@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 35vh;
+}
+
+input {
+  max-width: 32px;
+}
+
+textarea {
+  width: 100px;
+  height: 100px;
+}
+
+.header-title {
+  margin: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.document-box {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#document {
+  min-width: 90vw;
+  align-self: center;
+}
