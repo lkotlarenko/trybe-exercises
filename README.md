@@ -1,6 +1,6 @@
 # Trybe Course
 
-This repository contains all the learning activities developed by _[Leonardo Kotlarenko](https://www.linkedin.com/in/lkotlarenko)_ while studying at [Trybe](https://www.betrybe.com/) :rocket:
+This repository contains all the learning activities developed by _[me](https://www.linkedin.com/in/lkotlarenko)_ while studying at [Trybe](https://www.betrybe.com/) :rocket:
 
 ##### About Trybe
 
